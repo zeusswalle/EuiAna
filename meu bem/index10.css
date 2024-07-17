@@ -1,0 +1,9 @@
+body{
+    text-align: center;
+    background-color: black;
+   
+}
+p{
+    color: rgb(89, 252, 48);
+    text-shadow: 0 1px 10px aqua;
+}

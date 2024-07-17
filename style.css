@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+
+  }
+  
+  .player {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    max-width: 300px;
+    width: 100%;
+    height: 400px;
+    margin: 0 10px;
+    box-shadow: 0 1px 100px rgb(132, 0, 255);
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(82, 39, 138);
+  }
+  
+  .logo {
+    background-color: #1212ce2c;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+  }
+  
+  .logo {
+    font-size: 100px;
+  }
+  
+  #musicName {
+    white-space: nowrap; 
+    width: 90%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 20px;
+  }
+  
+  .controls button {
+    border: none;
+    cursor: pointer;
+  }
+  
+  .controls i {
+    font-size: 30px;
+    padding: 5px;
+    background-color: #4f0c86;
+    transition: all .2s;
+  }
+  
+  .controls i:hover {
+    background-color: lightgray;
+  }
+  
+  .time {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .time span {
+    font-size: 22px;
+    color: #333333;
+  }
+  
+  .footer {
+    width: 100%;
+  }
+  
+  .progress-bar {
+    height: 8px;
+    background-color: #2a1ca5;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  .progress {
+    height: 8px;
+    background-color: #ca4c4c;
+    border-radius: 5px;
+  }
+body{ 
+  background-image: linear-gradient(rgb(8, 8, 8),rgb(255, 0, 212));
+  text-align: center;
+  color: rgb(38, 109, 177);
+}
+p{
+  font-size: 100%;
+  color: rgb(255, 0, 255);
+  text-shadow:  0 1px 30px rgb(255, 0, 221);
+}
+.gif{
+  border-radius: 10%;
+}
+
+.p{
+  max-width: 600px; /* largura máxima desejada */
+  margin: 0 auto; /* centraliza horizontalmente */
+  padding: 0 20px; /* margem interna opcional para alinhar o texto dentro da margem */
+  display: flex;
+  position: relative;
+  top: -70px;
+}
+.imagens{
+  font-size: 0;
+  justify-content: center;
+}
